@@ -1,13 +1,14 @@
 {
   "name": "mediapost",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A social media backend API with image upload functionality",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["social-media", "api", "express", "mongodb", "imagekit"],
+  "author": "Your Name",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
