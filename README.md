@@ -32,8 +32,8 @@ Before running this project, make sure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Atharvaa99/MediaPost-backend.git
+   cd MediaPost-backend
    ```
 
 2. **Install dependencies**
@@ -48,7 +48,7 @@ Before running this project, make sure you have:
    MONGO_URI=your_mongodb_connection_string
    IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
    PORT=3000
-   FRONTEND_URL=http://localhost:5173
+   FRONTEND_URL=https://media-post-frontend.vercel.app
    ```
 
 4. **Start the server**
@@ -161,18 +161,28 @@ curl -X POST http://localhost:3000/api/create-post \
 
 ## 🚀 Deployment
 
-This application is deployed on [Render](https://render.com)
-**Live API:** `https://your-app.onrender.com`
+This application is deployed on **Render**.
+
+**Live API:** [https://mediapost-backend.onrender.com](https://mediapost-backend.onrender.com)
 
 ### Deployment Steps:
 1. Push code to GitHub
-2. Connect repository to Render/Railway
-3. Add environment variables in platform settings
-4. Deploy
+2. Connect repository to Render
+3. Configure build settings:
+   - Build Command: `npm install`
+   - Start Command: `npm start`
+4. Add environment variables in Render dashboard
+5. Deploy
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
+## 🔗 Related Projects
+
+- **Frontend Repository**: [MediaPost Frontend](https://github.com/Atharvaa99/MediaPost-frontend)
+- **Live Frontend Demo**: [https://media-post-frontend.vercel.app](https://media-post-frontend.vercel.app)
+
+---
 
 ⭐ **If you found this project helpful, please consider giving it a star!**
